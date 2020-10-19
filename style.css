@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Frijole&family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Frijole&family=Roboto:ital,wght@1,300&display=swap');
+
+body{
+  margin: 0px;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Frijole', cursive;
+}
+
+p{
+  font-family: 'Creepster', cursive;
+  letter-spacing: 0.2em;
+}
+.main{
+  background-image: url(https://smellslikechickspirit.files.wordpress.com/2014/10/pumpkins.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.tales{
+  background-image: url(https://cdn.dribbble.com/users/99875/screenshots/2324606/halloween_radio.gif);
+  background-repeat: no-repeat;
+  background-size: contain, cover;
+  margin: 0px;
+  background-color: black;
+}
+
+.anifacts{
+/*  background-image: url(anifacts.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px; */
+  background-color: black;
+}
+
+#lowheader{
+  background-image: linear-gradient(red,black);
+  height: 160px;
+  line-height: 160px;
+}
+#lowheader1{
+  background-image: linear-gradient(orangered, black);
+  height: 160px;
+  line-height: 160px;
+}
+
+#header-nav{
+  margin-top: 0px;
+}
+
+#header-title{
+  float: left;
+}
+
+#header-nav{
+  display: block;
+  float: right;
+  margin-top: 0px;
+}
+
+#header-nav li{
+  display: inline;
+  padding-right: 20px;
+}
+
+#header-img{
+  height: 150px;
+  width: 180px;
+  float: left;
+  margin-right: 10px;
+
+}
+
+#header a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-family: 'Frijole', cursive;
+}
+
+#header a:hover{
+  color: #ff1a1a;
+}
+
+.container{
+  margin: 0 auto;
+}
+
+#footer{
+  background-image: linear-gradient(black,red);
+  padding: 0px;
+}
+
+#footer1{
+  background-image: linear-gradient(black, orangered);
+  padding: 0px;
+}
+
+#footer h4{
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+#footer p{
+  color: white;
+}
+
+#footer a{
+  color: #1abc9c;
+  text-decoration: none;
+}
+#footer a:hover{
+  color: #F6A623;
+}
+
+.text{
+  color: white;
+}
+
+.columns{
+  min-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#content p{
+  font-family: "Times New Roman";
+  color: sandybrown;
+}
+
+
+/*---------------------------STORIES.HTML-----------------------------*/
+#story{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#story h3{
+  text-align: center;
+}
+
+.story1{
+  margin: 5px;
+  padding: 10px;
+
+}
+#story p,h3{
+  color: orangered;
+}
+#footer1 h4{
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+#footer1 p{
+  color: white;
+}
+
+#footer1 a{
+  color: #1abc9c;
+  text-decoration: none;
+}
+#footer1 a:hover{
+  color: #F6A623;
+}
+/*----------------------------------SHOP.HTML-----------------------------*/
+/*.product {
+  display: inline-block;
+  margin: 5px;
+}*/
+
+#basket{
+  position: absolute;
+  right: 16px;
+  top: 185px;
+}
+#itemCounter{
+  position: absolute;
+  right: 100px;
+  top: 173px;
+  color: black;
+}
+#orderTotal{
+  margin-right: 16px;
+  text-align: right;
+}
+.postHead{
+  color: red;
+}
+.product img{
+  height: 200px;
+  width: 250px;
+}
+.button{
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20px;
+  border: solid 2px gray;
+}
+.button:hover{
+  background-color: white;
+  color: black;
+}
+* {
+  box-sizing: border-box;
+}
+.product{
+  float: left;
+  width: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#shop::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.ps{
+  font-family: cursive;
+  letter-spacing: 0em;
+  font-size: 10px;
+}
+
+#shop{
+  background-color: black;
+}
+#shop-container p{
+  color: white;
+}
+.shop{
+  background-color: black;
+}
+#shop h2{
+  color: white;
+}
+#basket{
+  height: 70px;
+  width: 70px;
+}
+/*-----------------------------------------facts---------------------------------*/
+#facts p{
+  color: white;
+}
+#facts p{
+  font-family: "Times New Roman";
+}
+#facts h2{
+  color: red;
+}

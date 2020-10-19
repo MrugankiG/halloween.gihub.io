@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Halloween Treat</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body class="shop">
+    <div id="header">
+      <div id="lowheader">
+        <div class="container">
+          <img id="header-img" src="https://cdn.pixabay.com/photo/2016/04/01/00/13/halloween-1298060_640.png" alt="pumpkin">
+          <a href="index.html" id="header-title">Halloween</a>
+          <ul id="header-nav">
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="facts.html">Facts</a></li>
+            <li><a href="stories.html">Spooky Tales</a></li>
+          </ul>
+        </div>
+      </div>
+
+    <div id="shop">
+      <div id="shop-container">
+        <h1 class="postHead">Souls of the Damned</h1>
+        <img id="basket" src="https://cdn2.iconfinder.com/data/icons/holloween-twotone/48/Paul-20-512.png" alt="pumpkinCart" onclick="clickCart()">
+        <h2 id="itemCounter">0</h2>
+        <p id="orderTotal"></p>
+
+         <div class="product">
+         <img src="https://i2-prod.walesonline.co.uk/whats-on/film-news/article16560328.ece/ALTERNATES/s615b/0_KGR_ECH_100719_annabelle_02.jpg" alt="anabelle">
+         <p>Anabelle:<br>"She'll never leave your side."</p>
+         <button class="button" onclick="addToCart(anabelle)">Add To Cart</button>
+         </div>
+
+         <div class="product">
+         <img src="https://i.pinimg.com/originals/30/d6/f6/30d6f6d2a80d9f8d65aee227c43dc63c.png" alt="">
+         <p>"HI, I'M CHUCKY"<br>
+         "I ALWAYS COME BACK"</p>
+         <button class="button" onclick="addToCart(chucky)">Add To Cart</button>
+         </div>
+
+         <div class="product">
+         <img src="https://static-28.sinclairstoryline.com/resources/media/ee781fb5-541f-442e-9b34-287a18fedc05-large36x25_Creepydolls2.JPG?1531343151975" alt="creepyDolls">
+         <p>"They'll play with you<br>and YOUR SOUL"</p>
+         <button class="button" onclick="addToCart(creepyDolls)">Add To Cart</button>
+         </div>
+
+         <div class="product">
+         <img src="https://images-na.ssl-images-amazon.com/images/I/51ppxEoZ6yL._SL1000_.jpg" alt="pennywise">
+         <p>"Time to float."<br>"Here,take it. Take it,Georgie"</p>
+         <button class="button" onclick="addToCart(pennywise)">Add To Cart</button>
+         </div>
+
+         <div class="product">
+         <img src="https://i.pinimg.com/originals/1c/45/ed/1c45edaa2343481cf224f8be43ac6da9.jpg" alt="ghostUnderBed">
+         <p>"When there's no more room in Hell,<br>the dead will walk the Earth"</p>
+         <button class="button" onclick="addToCart(ghostUnderBed)">Add To Cart</button>
+         </div>
+
+         <div class="product">
+         <img src="https://i.pinimg.com/originals/36/e7/1a/36e71a7b6bfe183373696aa305c99427.jpg" alt="ghostInCupboard">
+         <p>"kreeeeeeeeeek! <br>Keeping it Deadly Clean"</p>
+         <button class="button" onclick="addToCart(ghostInCupboard)">Add To Cart</button>
+         </div>
+
+         <div class="product">
+         <img src="https://lh3.googleusercontent.com/proxy/c3TX9SBxnJimS9MnLNCa4FddoXPYk3xwR1tAtU6KTSq5Q33uUrie2HfyLLnAOzhxadPWev7eqQwu7VyvMdgCN0PZGZWwNu09v6zn216pzi2Y-94U7TRwnmWil8s_3fJRfUNmIbun8qDPpmpAstaO9NE" alt="ghostOverYou">
+         <p>"Whatever you do....<br>don't fall asleep."</p>
+         <button class="button" onclick="addToCart(ghostOverYou)">Add To Cart</button>
+         </div>
+
+         <div class="product">
+         <img src="https://image.freepik.com/free-vector/skeleton-background-with-ghost-cemetery_23-2147686792.jpg" alt="cemeteryGhost">
+         <p>"Horror and Moral Terror<br>are yourFRIENDS"</p>
+         <button class="button" onclick="addToCart(cemeteryGhost)">Add To Cart</button>
+         </div>
+
+         <div class="product">
+         <img src="https://i.pinimg.com/originals/9a/de/4a/9ade4a27650875740a23b07183bdf78b.jpg" alt="frankenstien">
+         <p>“Beware; for I am fearless,<br>and therefore powerful.” </p>
+         <button class="button" onclick="addToCart(frankenstien)">Add To Cart</button>
+         </div>
+
+         <div class="product">
+         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT_A0IGG4suifnvYB8XeDKBwD_PqIAcqZku7A&usqp=CAU" alt="mummy">
+         <p>"Death is Only the<br>BEGINNING"</p>
+         <button class="button" onclick="addToCart(mummy)">Add To Cart</button>
+         </div>
+
+         <div class="product">
+         <img src="https://cdn.friendlystock.com/wp-content/uploads/2018/09/9-creepy-female-zombie-cartoon-clipart.jpg" alt="ghoulGirl">
+         <p>Zombie Girl:<br>"Die to Date"</p>
+         <button class="button" onclick="addToCart(ghoulGirl)">Add To Cart</button>
+         </div>
+
+         <div class="product">
+         <img src="https://grid.gograph.com/crawling-zombie-vector-stock_gg67079885.jpg" alt="crawlingZombie">
+         <p>“Yeah, they’re dead.<br>They’re all messed up.”</p>
+         <button class="button" onclick="addToCart(crawlingZombie)">Add To Cart</button>
+         </div>
+
+         <div class="product">
+         <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a9b0b691-0464-485d-a9ae-eb68efd996ae/ddyejgw-8804af14-e543-41f8-ba79-5b06140b5ec3.jpg/v1/fill/w_1280,h_1305,q_75,strp/spooky_scary_skeleton_by_creaturesandfeatures_ddyejgw-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYTliMGI2OTEtMDQ2NC00ODVkLWE5YWUtZWI2OGVmZDk5NmFlXC9kZHllamd3LTg4MDRhZjE0LWU1NDMtNDFmOC1iYTc5LTViMDYxNDBiNWVjMy5qcGciLCJoZWlnaHQiOiI8PTEzMDUiLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS53YXRlcm1hcmsiXSwid21rIjp7InBhdGgiOiJcL3dtXC9hOWIwYjY5MS0wNDY0LTQ4NWQtYTlhZS1lYjY4ZWZkOTk2YWVcL2NyZWF0dXJlc2FuZGZlYXR1cmVzLTQucG5nIiwib3BhY2l0eSI6OTUsInByb3BvcnRpb25zIjowLjQ1LCJncmF2aXR5IjoiY2VudGVyIn19.2pG98wDtIMi5Z43bUpwNu8XnJd49QliryaluFBrmGhw" alt="sansSkeleton">
+         <p>"On days like this, kids like you,<br>should be Burning in Hell"</p>
+         <button class="button" onclick="addToCart(sansSkeleton)">Add To Cart</button>
+         </div>
+
+         <div class="product">
+         <img src="https://i.ytimg.com/vi/xIVutgH53cE/maxresdefault.jpg" alt="skeletor">
+         <p>"I must possess all,<br>or I possess nothing.""</p>
+         <button class="button" onclick="addToCart(skeletor)">Add To Cart</button>
+         </div>
+         <p class="ps">(ps: to check the amount click on the pumpkin-cart icon on the top-right side, and to clear your cart refresh the page. Happy Shopping!)</p>
+
+         <!---<div class="product">
+         <img src=".png" alt="">
+         <p></p>
+         <button class="button" onclick="addToCart()">Add To Cart</button>
+       </div>--->
+      </div>
+    </div>
+
+
+    <div id="footer">
+          <div class="container">
+            <div class="columns">
+              <h4>My Links</h4>
+              <p>
+              <a href="https://www.linkedin.com/in/mruganki-gupta-00aaa91b4/">LinkedIn</a>
+              <br>
+              <a href="https://www.instagram.com/mrugankig/">Instagram</a>
+              </p>
+            </div>
+            <div class="columns">
+              <h4>My Story</h4>
+              <p>Hello there, I'm an aspiring web developer.</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
